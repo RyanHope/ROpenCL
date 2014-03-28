@@ -1,0 +1,15 @@
+Package: ROpenCL
+Type: Package
+Title: Access the OpenCL API from R
+Version: 0.1-1
+Date: 2012-03-01
+Author: Willem Ligtenberg
+Maintainer: Willem Ligtenberg <willem.ligtenberg@openanalytics.eu>
+Description: Parallel Computing for R Using OpenCL
+License: GPL-3
+LazyLoad: yes
+Depends: methods, Rcpp (>= 0.9.4)
+LinkingTo: Rcpp
+RcppModules: ropencl
+Collate: 'createContext.R' 'zzz.R'
+Packaged: 2012-03-01 18:33:41 UTC; tobias
